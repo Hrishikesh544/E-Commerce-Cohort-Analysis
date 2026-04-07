@@ -17,6 +17,6 @@ I engineered an end-to-end data analytics pipeline to calculate customer churn. 
 ### **The Business Insight**
 *The heatmap below visualizes the percentage of users who return to make a purchase in the months following their initial sign-up.*
 
-![Retention Heatmap](retention_heatmap.png)
+![Retention Heatmap](customer_retention_heatmap.png)
 
 **Recommendation:** The cohort analysis reveals a severe retention bottleneck. While acquisition is strong (100% in Month 1), there is a massive drop off in Month 2. The marketing team is wasting their budget acquiring users who do not stay. I recommend shifting 20% of the acquisition budget into a targeted "Month 2 Re-engagement Discount" email campaign to improve the lifetime value (LTV) of our existing user base.
