@@ -4,7 +4,7 @@
 The CEO of "PuneKart" noticed that while the platform was acquiring new users daily, monthly recurring revenue was flat. The business question was clear: *Are we losing our existing customers immediately after their first purchase?*
 
 ### **The Solution**
-I engineered an end-to-end data analytics pipeline to calculate customer churn. To simulate a real-world production environment, I generated synthetic transactional data, stored it in a relational database, extracted it using SQL, and engineered cohort metrics using Pandas. 
+I engineered an end-to-end data analytics pipeline to calculate customer churn. To simulate a real world production environment, I generated synthetic transactional data, stored it in a relational database, extracted it using SQL, and engineered cohort metrics using Pandas. 
 
 **Tech Stack:** Python, SQLite, Pandas, NumPy, Seaborn
 
@@ -19,4 +19,4 @@ I engineered an end-to-end data analytics pipeline to calculate customer churn. 
 
 ![Retention Heatmap](retention_heatmap.png)
 
-**Recommendation:** The cohort analysis reveals a severe retention bottleneck. While acquisition is strong (100% in Month 1), there is a massive drop-off in Month 2. The marketing team is wasting their budget acquiring users who do not stay. I recommend shifting 20% of the acquisition budget into a targeted "Month 2 Re-engagement Discount" email campaign to improve the lifetime value (LTV) of our existing user base.
+**Recommendation:** The cohort analysis reveals a severe retention bottleneck. While acquisition is strong (100% in Month 1), there is a massive drop off in Month 2. The marketing team is wasting their budget acquiring users who do not stay. I recommend shifting 20% of the acquisition budget into a targeted "Month 2 Re-engagement Discount" email campaign to improve the lifetime value (LTV) of our existing user base.
